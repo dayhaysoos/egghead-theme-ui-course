@@ -26,7 +26,6 @@ const Header = ({ siteTitle }) => (
       <NavLink href={"/products"} as={Link}>
         Products
       </NavLink>
-      <ShoppingCartIcon />
     </Flex>
   </Box>
 );
