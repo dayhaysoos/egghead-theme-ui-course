@@ -7,13 +7,10 @@
 
 import React from "react";
 import Header from "./header";
-import CheckoutModal from "./checkout-modal";
-import SkipLink from "./skip-link";
 
 const Layout = ({ children }) => {
   return (
     <>
-      <SkipLink />
       <Header />
       <div
         style={{
@@ -33,7 +30,6 @@ const Layout = ({ children }) => {
           <a href="https://www.nextjs.org">Next.js</a>
         </footer>
       </div>
-      <CheckoutModal />
     </>
   );
 };
